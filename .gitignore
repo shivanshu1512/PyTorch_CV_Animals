@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (never commit dataset images to git)
+data/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# Dataset images
+dataset/*.jpg
+dataset/*.png
+dataset/*.jpeg
+dataset/animals/
+
+# Model checkpoints / weights
+*.pth
+*.pt
+*.pkl
+*.h5
+models/
+checkpoints/
+
+# Logs & outputs
+logs/
+runs/
+outputs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS
+*.pyc
+*.pyo
